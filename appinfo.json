@@ -1,0 +1,25 @@
+{
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    },
+    "capabilities": [
+        ""
+    ],
+    "appKeys": {},
+    "longName": "OnlyTRFuzzy",
+    "versionCode": 1,
+    "shortName": "OnlyTRFuzzy",
+    "companyName": "ersin.durna@gmail.com",
+    "uuid": "0abbd774-cab3-4adc-a77f-f0220ea167b2",
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "IMAGE_MENU",
+                "file": "images/MyWatchfaceIcon.png"
+            }
+        ]
+    }
+}
