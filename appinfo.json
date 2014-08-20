@@ -1,25 +1,26 @@
 {
-    "versionLabel": "1.0",
-    "watchapp": {
-        "watchface": true
-    },
+    "appKeys": {},
     "capabilities": [
         ""
     ],
-    "appKeys": {},
-    "longName": "OnlyTRFuzzy",
-    "versionCode": 1,
-    "shortName": "OnlyTRFuzzy",
     "companyName": "ersin.durna@gmail.com",
-    "uuid": "0abbd774-cab3-4adc-a77f-f0220ea167b2",
+    "longName": "OnlyTRFuzzy",
+    "projectType": "native",
     "resources": {
         "media": [
             {
+                "file": "images/MyWatchfaceIcon.png",
                 "menuIcon": true,
-                "type": "png",
                 "name": "IMAGE_MENU",
-                "file": "images/MyWatchfaceIcon.png"
+                "type": "png"
             }
         ]
+    },
+    "shortName": "OnlyTRFuzzy",
+    "uuid": "0abbd774-cab3-4adc-a77f-f0220ea167b2",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
     }
 }

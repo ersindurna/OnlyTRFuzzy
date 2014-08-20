@@ -106,7 +106,7 @@ void window_load(Window *window)
 {
   Layer *rootLayer = window_get_root_layer(window);
     
-  fuzzy_text_layer_1 = text_layer_create(GRect(0, 20, 144, 60));
+  fuzzy_text_layer_1 = text_layer_create(GRect(0, 24, 144, 60));
   text_layer_set_text_color(fuzzy_text_layer_1, GColorClear);
   text_layer_set_background_color(fuzzy_text_layer_1, GColorBlack);
   text_layer_set_font(fuzzy_text_layer_1, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
@@ -146,7 +146,7 @@ void window_load(Window *window)
   
   handle_battery(battery_state_service_peek());
   //Calendar
-  calendar_day_text_layer = text_layer_create(GRect(0,0,144,20));
+  calendar_day_text_layer = text_layer_create(GRect(0,0,144,24));
   text_layer_set_text_color(calendar_day_text_layer, GColorWhite);
   text_layer_set_background_color(calendar_day_text_layer, GColorBlack);
   text_layer_set_font(calendar_day_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
